@@ -45,7 +45,7 @@ then
 			  [Define if GCC visibility extensions are supported])
 	VISIBILITY_FLAGS="-fvisibility=hidden"
 	CFLAGS="$VISIBILITY_FLAGS $CFLAGS"
-	CXXFLAGS="$VISIBILITY_FLAGS -fvisibility-inlines-hidden $CFLAGS"
+	CXXFLAGS="$VISIBILITY_FLAGS -fvisibility-inlines-hidden $CXXFLAGS"
 fi
 
 ## Pass -DIN_LIBOFX to the compiler so we can detect it and include config.h
